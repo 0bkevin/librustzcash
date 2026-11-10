@@ -158,9 +158,9 @@ subtle = { version = "2.2.3", default-features = false }
 # - Warning: One of the downstream consumers requires that SQLite be available through
 #   CocoaPods, due to being bound to React Native. We need to ensure that the SQLite
 #   version required for `rusqlite` is a version that is available through CocoaPods.
-rusqlite = { version = "0.37", features = ["bundled"] }
-schemerz = "0.2"
-schemerz-rusqlite = "0.370"
+rusqlite = { version = "0.41", features = ["bundled"] }
+schemerz = { path = "../schemerz/schemerz" }
+schemerz-rusqlite = { path = "../schemerz/schemerz-rusqlite" }
 time = { version = "0.3.22", default-features = false }
 uuid = "1.1"
 
