@@ -11,7 +11,8 @@ workspace.
 ## [Unreleased]
 
 ### Changed
-- Upgrade public database types to `rusqlite` 0.41 and `schemerz` 0.3.
+- Upgrade public database types to `rusqlite` 0.41 and `schemerz` 0.3;
+  the SQLite crate now requires Rust 1.89.
 
 
 ### Added

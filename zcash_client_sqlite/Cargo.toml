@@ -11,7 +11,7 @@ repository.workspace = true
 readme = "README.md"
 license.workspace = true
 edition.workspace = true
-rust-version.workspace = true
+rust-version = "1.89"
 categories.workspace = true
 
 [package.metadata.docs.rs]
